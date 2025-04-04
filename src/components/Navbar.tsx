@@ -27,13 +27,13 @@ const Navbar = () => {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-black/80 shadow-md py-2' : 'bg-black/60 py-4'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#" className="text-2xl font-bold text-primary">
-            Kukljin Selidbe
+          <a href="#" className="text-2xl font-bold text-white">
+            Dare Prevoz Kruševac
           </a>
         </div>
 
@@ -41,19 +41,19 @@ const Navbar = () => {
         <nav className="hidden md:flex space-x-8">
           <a
             href="#usluge"
-            className="text-gray-800 hover:text-primary font-medium transition-colors"
+            className="text-white hover:text-primary font-medium transition-colors"
           >
             Usluge
           </a>
           <a
             href="#o-nama"
-            className="text-gray-800 hover:text-primary font-medium transition-colors"
+            className="text-white hover:text-primary font-medium transition-colors"
           >
             O nama
           </a>
           <a
             href="#kontakt"
-            className="text-gray-800 hover:text-primary font-medium transition-colors"
+            className="text-white hover:text-primary font-medium transition-colors"
           >
             Kontakt
           </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
             variant="ghost" 
             size="sm" 
             onClick={toggleMobileMenu}
-            className="text-gray-800"
+            className="text-white"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </Button>
@@ -74,25 +74,25 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white shadow-md">
+        <div className="md:hidden bg-black/90 shadow-md">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a
               href="#usluge"
-              className="text-gray-800 hover:text-primary font-medium transition-colors block py-2"
+              className="text-white hover:text-primary font-medium transition-colors block py-2"
               onClick={toggleMobileMenu}
             >
               Usluge
             </a>
             <a
               href="#o-nama"
-              className="text-gray-800 hover:text-primary font-medium transition-colors block py-2"
+              className="text-white hover:text-primary font-medium transition-colors block py-2"
               onClick={toggleMobileMenu}
             >
               O nama
             </a>
             <a
               href="#kontakt"
-              className="text-gray-800 hover:text-primary font-medium transition-colors block py-2"
+              className="text-white hover:text-primary font-medium transition-colors block py-2"
               onClick={toggleMobileMenu}
             >
               Kontakt

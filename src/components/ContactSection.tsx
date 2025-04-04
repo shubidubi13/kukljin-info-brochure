@@ -1,9 +1,11 @@
 
 import { useEffect, useRef } from 'react';
-import { Button } from "@/components/ui/button";
+import ContactButtons from './ContactButtons';
 
 const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
+  const phoneNumber = '+381 62 113 0568';
+  const email = 'darkoandjelkovicdzeza@gmail.com';
   
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -43,7 +45,7 @@ const ContactSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 gap-12">
           <div className="animate-on-scroll">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-semibold mb-6">Informacije za kontakt</h3>
@@ -70,7 +72,10 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium mb-1">Telefon</h4>
-                    <p className="text-gray-600">+381 64 123 4567</p>
+                    <p className="text-gray-600">{phoneNumber}</p>
+                    <div className="mt-2">
+                      <ContactButtons phoneNumber={phoneNumber} />
+                    </div>
                   </div>
                 </div>
                 
@@ -82,106 +87,10 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium mb-1">Email</h4>
-                    <p className="text-gray-600">info@kukljinselidbe.rs</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-medium mb-1">Radno vreme</h4>
-                    <p className="text-gray-600">Ponedeljak - Subota: 08:00 - 20:00</p>
-                    <p className="text-gray-600">Nedelja: Zatvoreno</p>
+                    <p className="text-gray-600">{email}</p>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          <div className="animate-on-scroll">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">Zatražite ponudu</h3>
-              
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                      Ime i prezime
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
-                      placeholder="Vaše ime i prezime"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                      Telefon
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
-                      placeholder="Vaš broj telefona"
-                    />
-                  </div>
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
-                    placeholder="Vaša email adresa"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
-                    Vrsta usluge
-                  </label>
-                  <select
-                    id="service"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
-                  >
-                    <option value="" disabled selected>Izaberite uslugu</option>
-                    <option value="home">Selidba stana/kuće</option>
-                    <option value="office">Poslovna selidba</option>
-                    <option value="packing">Pakovanje</option>
-                    <option value="furniture">Transport nameštaja</option>
-                    <option value="assembly">Montaža/demontaža</option>
-                    <option value="storage">Skladištenje</option>
-                  </select>
-                </div>
-                
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                    Poruka
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={4}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
-                    placeholder="Opišite vaše potrebe za selidbu"
-                  ></textarea>
-                </div>
-                
-                <Button 
-                  type="submit" 
-                  className="w-full bg-primary hover:bg-primary/90 text-white"
-                >
-                  Pošaljite upit
-                </Button>
-              </form>
             </div>
           </div>
         </div>
