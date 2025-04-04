@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -9,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Dare Prevoz Kruševac</h3>
             <p className="text-gray-300 mb-4">
-              Profesionalne usluge selidbe u Kukljinu i okolini Kruševca. Selidbe stanova, kuća i poslovnih prostora.
+              Profesionalne usluge selidbi u Kruševcu i okolini.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.instagram.com/" className="text-white hover:text-primary transition-colors">

@@ -1,6 +1,5 @@
 
 import { useEffect, useRef } from 'react';
-import ContactButtons from './ContactButtons';
 
 const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -73,9 +72,6 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-lg font-medium mb-1">Telefon</h4>
                     <p className="text-gray-600">{phoneNumber}</p>
-                    <div className="mt-2">
-                      <ContactButtons phoneNumber={phoneNumber} />
-                    </div>
                   </div>
                 </div>
                 
