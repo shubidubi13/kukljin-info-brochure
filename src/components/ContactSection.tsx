@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 
 const ContactSection = () => {
@@ -40,7 +39,7 @@ const ContactSection = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Spremni smo da odgovorimo na vaša pitanja i pomognemo vam da isplanirate vašu selidbu
+            Kontaktirajte nas za sve informacije o našim uslugama selidbe
           </p>
         </div>
         

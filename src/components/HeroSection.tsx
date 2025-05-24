@@ -23,7 +23,7 @@ const HeroSection = () => {
             Dare Prevoz Kruševac
           </h1>
           <p className="text-xl text-white/90 mb-8 drop-shadow-md">
-            Pouzdane i profesionalne usluge selidbe u Kukljinu i okolini
+            Pouzdane i profesionalne usluge selidbe u Kruševcu i okolini
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button 
