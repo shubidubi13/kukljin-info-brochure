@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 
 const AboutSection = () => {
@@ -49,10 +48,10 @@ const AboutSection = () => {
             </h2>
             <div className="w-20 h-1 bg-primary mb-6"></div>
             <p className="text-gray-700 mb-4 text-lg">
-              Naša kompanija za selidbe iz Kukljina kod Kruševca već godinama pruža pouzdane usluge selidbe za domaćinstva i preduzeća. Sa našim iskusnim timom i specijalizovanom opremom, garantujemo bezbednost vaših stvari tokom celog procesa selidbe.
+              Naša kompanija za selidbe iz Kruševca već godinama pruža pouzdane usluge selidbe za domaćinstva i preduzeća. Sa našim iskusnim timom i specijalizovanom opremom, garantujemo bezbednost vaših stvari tokom celog procesa selidbe.
             </p>
             <p className="text-gray-700 mb-6 text-lg">
-              Posvećeni smo pružanju profesionalnih i efikasnih usluga selidbe koje su prilagođene vašim specifičnim potrebama. Bilo da se selite lokalno u Kukljinu i okolini Kruševca ili na druge lokacije, naš tim će se pobrinuti da vaša selidba protekne glatko.
+              Posvećeni smo pružanju profesionalnih i efikasnih usluga selidbe koje su prilagođene vašim specifičnim potrebama. Bilo da se selite lokalno u Kruševcu i okolini ili na druge lokacije, naš tim će se pobrinuti da vaša selidba protekne glatko.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
               <div className="flex items-start">

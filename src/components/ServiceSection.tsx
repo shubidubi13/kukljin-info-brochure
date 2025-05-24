@@ -1,5 +1,6 @@
 
 import { useEffect, useRef } from 'react';
+import { PaintBucket } from 'lucide-react';
 
 const services = [
   {
@@ -28,9 +29,9 @@ const services = [
     description: "Stručna montaža i demontaža nameštaja.",
   },
   {
-    icon: "🏪",
-    title: "Skladištenje",
-    description: "Sigurno skladištenje vaših stvari na kraći ili duži period.",
+    iconComponent: PaintBucket,
+    title: "Krečenje",
+    description: "Krečimo stan posle selidbe",
   },
 ];
 
@@ -84,7 +85,11 @@ const ServiceSection = () => {
               key={index} 
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 animate-on-scroll"
             >
-              <div className="text-4xl mb-4">{service.icon}</div>
+              {service.iconComponent ? (
+                <service.iconComponent className="w-10 h-10 text-primary mb-4" />
+              ) : (
+                <div className="text-4xl mb-4">{service.icon}</div>
+              )}
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {service.title}
               </h3>

@@ -59,7 +59,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium mb-1">Adresa</h4>
-                    <p className="text-gray-600">Kukljin, 37000 Kruševac, Srbija</p>
+                    <p className="text-gray-600">37000 Kruševac, Srbija</p>
                   </div>
                 </div>
                 
@@ -94,14 +94,14 @@ const ContactSection = () => {
         <div className="mt-12 animate-on-scroll">
           <div className="bg-white p-4 rounded-lg shadow-md">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22924.018739287403!2d21.21785505!3d43.58465145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755c9112da9113d%3A0x33012a73f65c5fbc!2z0JrRg9C60ZnQuNC9!5e0!3m2!1ssr!2srs!4v1680258189412!5m2!1ssr!2srs"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.1!2d21.3287!3d43.5764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755c8f7c1b8e8c7%3A0x1234567890abcdef!2zS3J1xaFldmFj!5e0!3m2!1ssr!2srs!4v1680258189412!5m2!1ssr!2srs"
               width="100%"
               height="450"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Lokacija Kukljin"
+              title="Lokacija Kruševac"
               className="rounded-lg"
             ></iframe>
           </div>
