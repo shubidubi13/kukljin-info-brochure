@@ -30,7 +30,7 @@ const VehiclesSection = () => {
   }, []);
 
   return (
-    <section id="nasa-vozila" className="section-padding bg-light-bg" ref={sectionRef}>
+    <section id="nasa-vozila" className="py-12 px-4 md:px-8 lg:px-16 bg-light-bg" ref={sectionRef}>
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-on-scroll">
@@ -65,20 +65,20 @@ const VehiclesSection = () => {
                     </div>
                   </div>
                   
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h5 className="text-lg font-semibold mb-4 text-gray-900">Dimenzije tovarnog prostora:</h5>
-                    <div className="grid grid-cols-1 gap-3">
-                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                  <div className="bg-gray-50 p-4 rounded-lg max-w-md">
+                    <h5 className="text-lg font-semibold mb-3 text-gray-900">Dimenzije tovarnog prostora:</h5>
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center py-1 border-b border-gray-200">
                         <span className="font-medium text-gray-700">Dužina:</span>
-                        <span className="text-primary font-semibold">3.4m</span>
+                        <span className="text-primary font-semibold ml-4">3.4m</span>
                       </div>
-                      <div className="flex justify-between items-center py-2 border-b border-gray-200">
+                      <div className="flex justify-between items-center py-1 border-b border-gray-200">
                         <span className="font-medium text-gray-700">Širina:</span>
-                        <span className="text-primary font-semibold">2m</span>
+                        <span className="text-primary font-semibold ml-4">2m</span>
                       </div>
-                      <div className="flex justify-between items-center py-2">
+                      <div className="flex justify-between items-center py-1">
                         <span className="font-medium text-gray-700">Visina:</span>
-                        <span className="text-primary font-semibold">2m</span>
+                        <span className="text-primary font-semibold ml-4">2m</span>
                       </div>
                     </div>
                   </div>
