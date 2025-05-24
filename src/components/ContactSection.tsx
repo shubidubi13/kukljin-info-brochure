@@ -44,10 +44,10 @@ const ContactSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 gap-12">
-          <div className="animate-on-scroll">
+        <div className="flex justify-center">
+          <div className="animate-on-scroll max-w-2xl">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">Informacije za kontakt</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-center">Kontakt Informacije</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start">
