@@ -31,7 +31,12 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center">
+        <div className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/4a6753b3-0350-40d8-81c0-cfe0bad0cd4d.png" 
+            alt="DAP Logo" 
+            className="h-10 w-10 filter invert"
+          />
           <a href="#" className="text-2xl font-bold text-white">
             Dare Prevoz Kruševac
           </a>

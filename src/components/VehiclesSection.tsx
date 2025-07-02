@@ -30,9 +30,9 @@ const VehiclesSection = () => {
   }, []);
 
   return (
-    <section id="nasa-vozila" className="py-12 px-4 md:px-8 lg:px-16 bg-light-bg" ref={sectionRef}>
+    <section id="nasa-vozila" className="py-8 px-4 md:px-8 lg:px-16 bg-light-bg" ref={sectionRef}>
       <div className="container mx-auto">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-on-scroll">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Naša Vozila
@@ -50,10 +50,10 @@ const VehiclesSection = () => {
                 />
               </div>
               
-              <div>
+              <div className="text-center">
                 <h3 className="text-2xl font-semibold mb-6 text-gray-900">Specifikacije vozila</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-center">
                     <div className="bg-primary/10 p-3 rounded-full mr-4">
                       <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 4V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v2h4a1 1 0 0 1 0 2v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 0-2h4z"></path>
@@ -65,20 +65,20 @@ const VehiclesSection = () => {
                     </div>
                   </div>
                   
-                  <div className="bg-gray-50 p-4 rounded-lg max-w-md">
+                  <div className="bg-gray-50 p-4 rounded-lg w-fit mx-auto">
                     <h5 className="text-lg font-semibold mb-3 text-gray-900">Dimenzije tovarnog prostora:</h5>
                     <div className="space-y-2">
-                      <div className="flex justify-between items-center py-1 border-b border-gray-200">
+                      <div className="flex justify-between items-center py-1 border-b border-gray-200 gap-8">
                         <span className="font-medium text-gray-700">Dužina:</span>
-                        <span className="text-primary font-semibold ml-4">3.4m</span>
+                        <span className="text-primary font-semibold">3.4m</span>
                       </div>
-                      <div className="flex justify-between items-center py-1 border-b border-gray-200">
+                      <div className="flex justify-between items-center py-1 border-b border-gray-200 gap-8">
                         <span className="font-medium text-gray-700">Širina:</span>
-                        <span className="text-primary font-semibold ml-4">2m</span>
+                        <span className="text-primary font-semibold">2m</span>
                       </div>
-                      <div className="flex justify-between items-center py-1">
+                      <div className="flex justify-between items-center py-1 gap-8">
                         <span className="font-medium text-gray-700">Visina:</span>
-                        <span className="text-primary font-semibold ml-4">2m</span>
+                        <span className="text-primary font-semibold">2m</span>
                       </div>
                     </div>
                   </div>
