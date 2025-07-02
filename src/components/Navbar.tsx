@@ -35,7 +35,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/4a6753b3-0350-40d8-81c0-cfe0bad0cd4d.png" 
             alt="DAP Logo" 
-            className="h-18 w-18 filter invert"
+            className="h-14 w-14 filter invert"
           />
           <a href="#" className="text-2xl font-bold text-white">
             Dare Prevoz Kruševac
