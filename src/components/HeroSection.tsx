@@ -1,5 +1,4 @@
 
-
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -31,7 +30,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-white px-4 sm:px-8"
+              className="bg-primary hover:bg-primary/90 text-white px-4 sm:px-8 max-w-xs sm:max-w-none"
               onClick={() => document.getElementById('usluge')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Naše usluge
@@ -39,7 +38,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 border-white text-white px-4 sm:px-8"
+              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 border-white text-white px-4 sm:px-8 max-w-xs sm:max-w-none"
               onClick={() => document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Kontaktirajte nas
@@ -52,4 +51,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
