@@ -10,7 +10,7 @@ const HeroSection = () => {
           className="w-full h-full bg-center"
           style={{ 
             backgroundImage: "url('/lovable-uploads/c31e9102-c85a-4589-b486-df7fa802dbe0.png')",
-            backgroundSize: "110% auto",
+            backgroundSize: "auto 100%",
             backgroundRepeat: "no-repeat"
           }}
         >
