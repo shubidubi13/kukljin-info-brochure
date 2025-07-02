@@ -7,9 +7,11 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div 
-          className="w-full h-full bg-cover bg-center"
+          className="w-full h-full bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/c31e9102-c85a-4589-b486-df7fa802dbe0.png')", 
+            backgroundImage: "url('/lovable-uploads/c31e9102-c85a-4589-b486-df7fa802dbe0.png')",
+            backgroundSize: "110% auto",
+            backgroundRepeat: "no-repeat"
           }}
         >
           <div className="absolute inset-0 bg-gray-500/70"></div>
