@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-screen flex items-center pt-20">
+    <section className="relative h-screen flex items-center">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pt-20">
         <div 
-          className="w-full h-full bg-center"
+          className="w-full h-full bg-center bg-top"
           style={{ 
             backgroundImage: "url('/lovable-uploads/c31e9102-c85a-4589-b486-df7fa802dbe0.png')",
-            backgroundSize: "auto 100%",
+            backgroundSize: "cover",
             backgroundRepeat: "no-repeat"
           }}
         >
@@ -19,7 +19,7 @@ const HeroSection = () => {
       </div>
       
       {/* Content */}
-      <div className="container mx-auto px-4 z-10 text-center">
+      <div className="container mx-auto px-4 z-10 text-center pt-20">
         <div className="max-w-3xl mx-auto animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
             Dare Prevoz Kruševac
