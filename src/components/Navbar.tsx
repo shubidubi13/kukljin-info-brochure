@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black/80 shadow-md py-2' : 'bg-black/60 py-4'
+        isScrolled ? 'bg-black/80 shadow-md py-3' : 'bg-black/60 py-5'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
@@ -35,7 +35,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/4a6753b3-0350-40d8-81c0-cfe0bad0cd4d.png" 
             alt="DAP Logo" 
-            className="h-10 w-10 filter invert"
+            className="h-14 w-14 filter invert"
           />
           <a href="#" className="text-2xl font-bold text-white">
             Dare Prevoz Kruševac
