@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const phoneNumber = '+381 62 113 0568';
   const email = 'darkoandjelkovicdzeza@gmail.com';
+  const instagramHandle = '@dareprevoz_krusevac';
   
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -68,6 +70,23 @@ const ContactSection = () => {
                     <h4 className="text-lg font-medium mb-1">Email</h4>
                     <p className="text-gray-600">{email}</p>
                   </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <a 
+                    href="https://instagram.com/dareprevoz_krusevac" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-start hover:opacity-80 transition-opacity"
+                  >
+                    <div className="bg-primary/10 p-3 rounded-full mr-4">
+                      <Instagram className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-medium mb-1">Instagram</h4>
+                      <p className="text-gray-400">{instagramHandle}</p>
+                    </div>
+                  </a>
                 </div>
                 
                 <div className="flex items-start">
