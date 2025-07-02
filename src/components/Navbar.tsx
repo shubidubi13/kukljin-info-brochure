@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -27,7 +26,7 @@ const Navbar = () => {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black/80 shadow-md py-3' : 'bg-black/60 py-5'
+        isScrolled ? 'bg-black shadow-md py-3' : 'bg-black py-5'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
@@ -79,7 +78,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-black/90 shadow-md">
+        <div className="md:hidden bg-black shadow-md">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a
               href="#usluge"
