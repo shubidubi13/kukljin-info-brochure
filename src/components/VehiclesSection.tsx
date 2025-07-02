@@ -54,7 +54,7 @@ const VehiclesSection = () => {
               <div className="text-center">
                 <h3 className="text-2xl font-semibold mb-6 text-gray-900">Specifikacije vozila</h3>
                 <div className="space-y-4">
-                  <div className="flex items-start">
+                  <div className="flex items-start justify-center">
                     <div className="bg-primary/10 p-3 rounded-full mr-4">
                       <Truck className="w-6 h-6 text-primary" />
                     </div>
