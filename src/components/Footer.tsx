@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Dare Prevoz Kruševac</h3>
+            <h3 className="text-xl font-semibold mb-4">Darko Andjelković Prevoz</h3>
             <p className="text-gray-300 mb-4">
               Profesionalne usluge selidbi u Kruševcu i okolini.
             </p>
@@ -71,7 +71,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} Dare Prevoz Kruševac. Sva prava zadržana.
+            &copy; {currentYear} Darko Andjelković Prevoz. Sva prava zadržana.
           </p>
         </div>
       </div>

@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 z-10 text-center pt-20">
         <div className="max-w-3xl mx-auto animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg">
-            Dare Prevoz Kruševac
+            Darko Andjelković Prevoz
           </h1>
           <p className="text-xl text-white/90 mb-8 drop-shadow-md">
             Pouzdane i profesionalne usluge selidbe u Kruševcu i okolini

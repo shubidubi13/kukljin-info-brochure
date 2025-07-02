@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -37,7 +38,7 @@ const Navbar = () => {
             className="h-14 w-14 filter invert"
           />
           <a href="#" className="text-2xl font-bold text-white">
-            Dare Prevoz Kruševac
+            Darko Andjelković Prevoz
           </a>
         </div>
 
