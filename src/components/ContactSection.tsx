@@ -84,7 +84,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="text-lg font-medium mb-1">Instagram</h4>
-                      <p className="text-gray-400">{instagramHandle}</p>
+                      <p className="text-gray-600">{instagramHandle}</p>
                     </div>
                   </a>
                 </div>
