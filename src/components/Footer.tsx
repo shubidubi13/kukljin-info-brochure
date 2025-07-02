@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-semibold mb-4">Darko Andjelković Prevoz</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center md:text-left">Darko Andjelković Prevoz</h3>
             <p className="text-gray-300 mb-4">
               Profesionalne usluge selidbi u Kruševcu i okolini.
             </p>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-semibold mb-4">Brzi linkovi</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center md:text-left">Brzi linkovi</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-300 hover:text-primary transition-colors">Početna</a>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
           
           <div className="pl-0 md:pl-4 text-center md:text-left">
-            <h3 className="text-xl font-semibold mb-4">Kontakt informacije</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center md:text-left">Kontakt informacije</h3>
             <ul className="space-y-3">
               <li className="flex items-center justify-center md:justify-start">
                 <svg className="w-5 h-5 mr-3 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
