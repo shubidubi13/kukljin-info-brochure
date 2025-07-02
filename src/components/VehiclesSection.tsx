@@ -44,7 +44,7 @@ const VehiclesSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2026&q=80" 
+                  src="/lovable-uploads/a12e5ad5-62b6-4792-b008-eacf6ca87b5a.png" 
                   alt="Kombi vozilo za prevoz" 
                   className="w-full h-auto object-cover"
                 />
