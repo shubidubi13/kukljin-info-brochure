@@ -43,29 +43,29 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        {/* <nav className="hidden md:flex space-x-8">
-          <a
-            href="#usluge"
-            className="text-white hover:text-primary font-medium transition-colors"
-          >
-            Usluge
-          </a>
-          <a
-            href="#o-nama"
-            className="text-white hover:text-primary font-medium transition-colors"
-          >
-            O nama
-          </a>
-          <a
-            href="#kontakt"
-            className="text-white hover:text-primary font-medium transition-colors"
-          >
-            Kontakt
-          </a>
-        </nav> */}
+        <nav className="hidden md:flex space-x-8">
+          <Button
+              className="text-white hover:text-primary font-medium transition-colors block py-2"
+              style={{ backgroundColor: 'transparent', border: 'none' }}
+              onClick={() => document.getElementById('usluge')?.scrollIntoView({ behavior: 'smooth' })}
+            >Usluge
+          </Button>
+          <Button
+              className="text-white hover:text-primary font-medium transition-colors block py-2"
+              style={{ backgroundColor: 'transparent', border: 'none' }}
+              onClick={() => document.getElementById('o-nama')?.scrollIntoView({ behavior: 'smooth' })}
+            >O nama
+          </Button>
+          <Button
+              className="text-white hover:text-primary font-medium transition-colors block py-2"
+              style={{ backgroundColor: 'transparent', border: 'none' }}
+              onClick={() => document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })}
+            >Konktakt
+          </Button>
+        </nav>
 
         {/* Mobile Menu Button */}
-        {/* <div className="md:hidden">
+        <div className="md:hidden">
           <Button 
             variant="ghost" 
             size="sm" 
@@ -74,37 +74,34 @@ const Navbar = () => {
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </Button>
-        </div> */}
+        </div>
       </div>
 
       {/* Mobile Menu */}
-      {/* {isMobileMenuOpen && (
+      {isMobileMenuOpen && (
         <div className="md:hidden bg-gray-800 shadow-md">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <a
-              href="#usluge"
-              className="text-white hover:text-primary font-medium transition-colors block py-2"
-              onClick={toggleMobileMenu}
-            >
-              Usluge
-            </a>
-            <a
-              href="#o-nama"
-              className="text-white hover:text-primary font-medium transition-colors block py-2"
-              onClick={toggleMobileMenu}
-            >
-              O nama
-            </a>
-            <a
-              href="#kontakt"
-              className="text-white hover:text-primary font-medium transition-colors block py-2"
-              onClick={toggleMobileMenu}
-            >
-              Kontakt
-            </a>
+              <Button
+                className="text-white hover:text-primary font-medium transition-colors block py-2"
+                style={{ backgroundColor: 'transparent', border: 'none' }}
+                  onClick={() => {document.getElementById('usluge')?.scrollIntoView({ behavior: 'smooth' }); toggleMobileMenu();}}
+              >Usluge
+            </Button>
+            <Button
+                className="text-white hover:text-primary font-medium transition-colors block py-2"
+                style={{ backgroundColor: 'transparent', border: 'none' }}
+                  onClick={() => {document.getElementById('o-nama')?.scrollIntoView({ behavior: 'smooth' }); toggleMobileMenu();}}
+              >O nama
+            </Button>
+            <Button
+                className="text-white hover:text-primary font-medium transition-colors block py-2"
+                style={{ backgroundColor: 'transparent', border: 'none' }}
+                  onClick={() => {document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' }); toggleMobileMenu();}}
+              >Kontakt
+            </Button>
           </div>
         </div>
-      )} */}
+      )}
     </header>
   );
 };
