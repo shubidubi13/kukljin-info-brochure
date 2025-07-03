@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        {/* <nav className="hidden md:flex space-x-8">
           <a
             href="#usluge"
             className="text-white hover:text-primary font-medium transition-colors"
@@ -62,10 +62,10 @@ const Navbar = () => {
           >
             Kontakt
           </a>
-        </nav>
+        </nav> */}
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
           <Button 
             variant="ghost" 
             size="sm" 
@@ -74,11 +74,11 @@ const Navbar = () => {
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </Button>
-        </div>
+        </div> */}
       </div>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
+      {/* {isMobileMenuOpen && (
         <div className="md:hidden bg-gray-800 shadow-md">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a
@@ -104,7 +104,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-      )}
+      )} */}
     </header>
   );
 };
