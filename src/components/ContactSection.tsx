@@ -74,7 +74,7 @@ const ContactSection = () => {
                 
                 <div className="flex items-start">
                   <a 
-                    href="https://instagram.com/dareprevoz_krusevac" 
+                    href="https://www.instagram.com/kombi_prevoz_dare_krusevac/"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-start hover:opacity-80 transition-opacity"
