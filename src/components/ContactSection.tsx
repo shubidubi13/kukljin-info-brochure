@@ -6,7 +6,7 @@ const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const phoneNumber = '+381 62 113 0568';
   const email = 'darkoandjelkovicdzeza@gmail.com';
-  const instagramHandle = 'https://www.instagram.com/kombi_prevoz_dare_krusevac/';
+  const instagramHandle = '@kombi_prevoz_dare_krusevac';
   
   useEffect(() => {
     const observer = new IntersectionObserver(
