@@ -54,8 +54,13 @@ const ContactSection = () => {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
+                  <a
+                    href={`tel:${String(phoneNumber).replace(/[^\d+]/g, "")}`}
+                    aria-label={`Pozovi ${phoneNumber}`}
+                    className="inline-flex hover:opacity-80 transition-opacity">
                     <Phone className="w-6 h-6 text-primary" />
-                  </div>
+                  </a>
+                </div>
                   <div>
                     <h4 className="text-lg font-medium mb-1">Telefon</h4>
                     <p className="text-gray-600">{phoneNumber}</p>
